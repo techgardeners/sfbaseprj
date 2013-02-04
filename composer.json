@@ -1,0 +1,7 @@
+ {
+    "name": "techgardeners/sfbaseprj",
+    "description": "Symfony 2 base Project",
+    "require": {
+    },
+    "minimum-stability": "dev"
+}

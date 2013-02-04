@@ -1,0 +1,17 @@
+{
+    "packages": {
+        "name": "techgardeners/sfbaseprj",
+        "version": "0.0.1",
+        "dist": {
+          "url": "ssh://root@149.5.47.131/var/git-rep/techgardeners/sfbaseprj",
+          "type": "zip"
+},
+
+"source": {
+            "url": "ssh://root@149.5.47.131/var/git-rep/techgardeners/sfbaseprj",
+            "type": "git",
+            "reference": ""
+
+        }
+    }
+}
