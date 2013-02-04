@@ -1,0 +1,3 @@
+tech_g_base_project_homepage:
+    pattern:  /
+    defaults: { _controller: TechGBaseProjectBundle:Main:index }

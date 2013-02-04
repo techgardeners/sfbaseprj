@@ -1,0 +1,7 @@
+parameters:
+#    tech_g_base_project.example.class: TechG\BaseProjectBundle\Example
+
+services:
+#    tech_g_base_project.example:
+#        class: %tech_g_base_project.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
