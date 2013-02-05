@@ -4,7 +4,7 @@ imports:
 
 framework:
     #esi:             ~
-    #translator:      { fallback: "%locale%" }
+    translator:      { fallback: "%locale%" }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -65,7 +65,8 @@ mobile_detect:
         mobile: ~
         tablet: ~
     switch_device_view: ~
-    
+
+## REFERENCE ##
 #mobile_detect:
 #    redirect:
 #        mobile:
@@ -82,3 +83,40 @@ mobile_detect:
 #        save_referer_path: false        # default true
                                         # true  redirectUrl = http://site.com/current/path
                                         # false redirectUrl = http://site.com  
+                                        
+fos_user:
+    db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
+    firewall_name: main
+    user_class: TechG\AuthProjectBundle\Entity\User
+    service:
+        mailer: fos_user.mailer.twig_swift
+    from_email:
+        address:        noreply@e-menu.com
+        sender_name:    E-menu
+    profile:
+        form:
+            type:               tech_g_auth_project_user_profile      
+    registration:
+        form:
+            type:               tech_g_auth_project_user_registration
+            handler:            tech_g_auth_project.form.handler.registration                     
+        confirmation:
+            enabled:    true
+            from_email:
+                address:        registration@sts.com
+                sender_name:    AuthProjectBundle Registration
+            template:   FOSUserBundle:Registration:confirmation.email.html.twig
+    resetting:
+        email:
+            from_email:
+                address:        resetting@sts.com
+                sender_name:    AuthProjectBundle Resetting                
+            template:   FOSUserBundle:Registration:resetting.email.html.twig        
+
+#avalanche_imagine:
+#    filters:
+#        my_thumb:
+#            type:    thumbnail
+#            options: { size: [120, 90], mode: outbound, quality: 100, format: png }
+
+                                        

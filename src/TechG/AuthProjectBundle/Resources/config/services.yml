@@ -1,0 +1,25 @@
+parameters:
+#    tech_g_auth_project.example.class: TechG\AuthProjectBundle\Example
+
+services:
+#    tech_g_auth_project.example:
+#        class: %tech_g_auth_project.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+    tech_g_auth_project.registration.form.type:
+        class: TechG\AuthProjectBundle\Form\Type\RegistrationFormType
+        arguments: [%fos_user.model.user.class%]
+        tags:
+            - { name: form.type, alias: tech_g_auth_project_user_registration }
+            
+    tech_g_auth_project.profile.form.type:
+        class: TechG\AuthProjectBundle\Form\Type\ProfileFormType
+        arguments: [%fos_user.model.user.class%]
+        tags:
+            - { name: form.type, alias: tech_g_auth_project_user_profile }
+            
+    tech_g_auth_project.form.handler.registration:
+        class: TechG\AuthProjectBundle\Form\Handler\RegistrationFormHandler
+        arguments: ["@fos_user.registration.form", "@request", "@fos_user.user_manager", "@fos_user.mailer", "@fos_user.util.token_generator"]
+        scope: request
+        public: false  
