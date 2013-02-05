@@ -1,1 +1,56 @@
 {% extends "TechGSfBaseprjBundle::base_dist.html.twig" %}
+
+{% block seo_metadata %}
+    <meta name="description" content="">
+    <meta name="keywords" content="">    
+    <title>Standard project</title>      
+{% endblock %}
+
+{% block stylesheets %}    
+    <link rel="stylesheet" href="{{ asset('/bundles/techgsfbaseprj/css/main.css') }}" />  
+{% endblock %}
+
+{% block navbar %}{% endblock %}
+
+{% block header %}
+    
+    <div id="header-container">
+        <header>                 
+        </header> 
+    </div> <!-- end #header-container -->   
+           
+{% endblock %}
+
+{% block main_content %}
+    <div class="container main">
+        {% block main_container_content %}{% endblock %}
+    </div>    
+{% endblock %}  
+
+
+{% block footer %}{% endblock %} 
+
+{% block javascripts %}{% endblock %}    
+
+{% block ready_javascripts %}
+
+    <!-- script type="text/javascript">
+        
+        jQuery(document).ready(function() {
+
+        });            
+
+    </script -->        
+
+{% endblock %}
+
+{% block analitycs %}
+    {% if app.environment == 'prod' %}
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    {% endif %}
+{% endblock %}    
