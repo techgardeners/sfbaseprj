@@ -21,8 +21,11 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             
             // Base bundle for project based on techgardeners/sfbaseprj
-            new TechG\BaseProjectBundle\TechGBaseProjectBundle(),
+            new TechG\BaseProjectBundle\TechGBaseProjectBundle(),            
             
+            // Base bundle for project based on techgardeners/sfbaseprj
+            new TechG\Bundle\SfBaseprjBundle\TechGSfBaseprjBundle(),
+            new SunCat\MobileDetectBundle\MobileDetectBundle(),  // https://github.com/suncat2000/MobileDetectBundle            
             
         );
 
