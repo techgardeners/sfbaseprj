@@ -1612,12 +1612,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/techgardeners/sf-baseprj-bundle.git",
-                "reference": "c70e37716ad5bbe36dd077a8e26d75c80f97d182"
+                "reference": "24ae828773ddec1d737f3edf2c66622830a4a62b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/techgardeners/sf-baseprj-bundle/zipball/c70e37716ad5bbe36dd077a8e26d75c80f97d182",
-                "reference": "c70e37716ad5bbe36dd077a8e26d75c80f97d182",
+                "url": "https://api.github.com/repos/techgardeners/sf-baseprj-bundle/zipball/24ae828773ddec1d737f3edf2c66622830a4a62b",
+                "reference": "24ae828773ddec1d737f3edf2c66622830a4a62b",
                 "shasum": ""
             },
             "require": {
@@ -1633,7 +1633,7 @@
             "require-dev": {
                 "symfony/framework-bundle": ">=2.7,<2.2-dev"
             },
-            "time": "2013-02-05 06:02:22",
+            "time": "2013-02-06 07:16:51",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
