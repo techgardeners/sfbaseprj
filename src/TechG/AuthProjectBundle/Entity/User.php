@@ -18,7 +18,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * TechG\AuthProjectBundle\Entity\User
  *
- * @ORM\Table(name="fos_user")
+ * @ORM\Table(name="auth_user")
  * @ORM\Entity
  */
 class User extends BaseUser
