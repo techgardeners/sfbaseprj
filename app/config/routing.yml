@@ -5,3 +5,10 @@ tech_g_auth_project:
 tech_g_base_project:
     resource: "@TechGBaseProjectBundle/Resources/config/routing.yml"
     prefix:   /
+    
+    
+##### AVALANCHE ROUTE #####
+    
+_imagine:
+    resource: .
+    type:     imagine    

@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             // Base bundle for project based on techgardeners/sfbaseprj
             new FOS\UserBundle\FOSUserBundle(),
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+            new Avalanche\Bundle\ImagineBundle\AvalancheImagineBundle(),            
             new SunCat\MobileDetectBundle\MobileDetectBundle(),  // https://github.com/suncat2000/MobileDetectBundle            
             new TechG\Bundle\SfBaseprjBundle\TechGSfBaseprjBundle(),
             
