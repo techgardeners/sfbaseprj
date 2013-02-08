@@ -9,8 +9,6 @@ services:
     tech_g_auth_project.registration.form.type:
         class: TechG\AuthProjectBundle\Form\Type\RegistrationFormType
         arguments: [%fos_user.model.user.class%]
-        tags:
-            - { name: form.type, alias: tech_g_auth_project_user_registration }
             
     tech_g_auth_project.profile.form.type:
         class: TechG\AuthProjectBundle\Form\Type\ProfileFormType

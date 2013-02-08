@@ -10,5 +10,10 @@ _configurator:
     resource: "@SensioDistributionBundle/Resources/config/routing/webconfigurator.xml"
     prefix:   /_configurator
 
+tech_g_baseprj_bundle:
+    resource: "@TechGSfBaseprjBundle/Resources/config/routing.yml"
+    prefix:   /techg    
+    
+    
 _main:
     resource: routing.yml

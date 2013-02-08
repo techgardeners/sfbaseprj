@@ -14,6 +14,8 @@ parameters:
     locale:            en_GB
     secret:            ThisTokenIsNotSoSecretChangeIt
 
-    tech_g_sf_baseprj.collectUserGeoInfo: false
-    tech_g_sf_baseprj.guessLocale: false
-    tech_g_sf_baseprj.enableMobileDetection: false
+    tech_g_sf_baseprj.module.geodecode.enable: false
+    tech_g_sf_baseprj.module.guessLocale.enable: true
+    tech_g_sf_baseprj.module.mobileDetection.enable: false
+    tech_g_sf_baseprj.module.blackList.enable: true
+    tech_g_sf_baseprj.module.whitekList.enable: false
