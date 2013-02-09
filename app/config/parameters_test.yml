@@ -1,0 +1,23 @@
+parameters:
+    database_driver:   pdo_mysql
+    database_host:     127.0.0.1
+    database_port:     ~
+    database_name:     sfbaseprj
+    database_user:     sfbaseprj
+    database_password: sfbaseprj
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            en_GB
+    secret:            ThisTokenIsNotSoSecretChangeIt
+
+    project.name:      sfBaseprjBundle
+    
+    tech_g_sf_baseprj.module.geodecode.enable: true
+    tech_g_sf_baseprj.module.guessLocale.enable: true
+    tech_g_sf_baseprj.module.mobileDetection.enable: true
+    tech_g_sf_baseprj.module.blackList.enable: false
+    tech_g_sf_baseprj.module.whitekList.enable: false

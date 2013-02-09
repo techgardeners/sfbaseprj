@@ -6,3 +6,4 @@ build/
 vendor
 composer.phar
 DoctrineMigrations
+/app/phpunit.xml
