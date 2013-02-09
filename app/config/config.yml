@@ -91,8 +91,8 @@ fos_user:
     service:
         mailer: fos_user.mailer.twig_swift
     from_email:
-        address:        noreply@e-menu.com
-        sender_name:    E-menu
+        address:        noreply@%project.name%.com
+        sender_name:    %project.name%
     profile:
         form:
             type:               tech_g_auth_project_user_profile      
@@ -103,15 +103,15 @@ fos_user:
         confirmation:
             enabled:    true
             from_email:
-                address:        registration@sts.com
-                sender_name:    AuthProjectBundle Registration
-            template:   FOSUserBundle:Registration:confirmation.email.html.twig
+                address:        registration@%project.name%.com
+                sender_name:    %project.name% Registration
+            template:   FOSUserBundle:Registration:email.html.twig
     resetting:
         email:
             from_email:
-                address:        resetting@sts.com
-                sender_name:    AuthProjectBundle Resetting                
-            template:   FOSUserBundle:Registration:resetting.email.html.twig        
+                address:        resetting@%project.name%.com
+                sender_name:    %project.name% Resetting                
+            template:   FOSUserBundle:Resetting:email.html.twig        
 
 #avalanche_imagine:
 #    filters:

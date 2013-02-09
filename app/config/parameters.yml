@@ -14,6 +14,8 @@ parameters:
     locale:            en_GB
     secret:            ThisTokenIsNotSoSecretChangeIt
 
+    project.name:      sfBaseprjBundle
+    
     tech_g_sf_baseprj.module.geodecode.enable: false
     tech_g_sf_baseprj.module.guessLocale.enable: true
     tech_g_sf_baseprj.module.mobileDetection.enable: false

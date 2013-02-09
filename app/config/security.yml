@@ -19,6 +19,8 @@ security:
                     admin: { password: adminpass, roles: [ 'ROLE_ADMIN' ] }
         fos_userbundle:
             id: fos_user.user_provider.username                    
+            # For enable email login function
+            #id: fos_user.user_provider.username_email                    
 
     firewalls:
         dev:
