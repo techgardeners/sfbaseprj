@@ -10,17 +10,13 @@
 
 namespace TechG\AuthProjectBundle\Tests\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+use TechG\Bundle\SfBaseprjBundle\Tests\Extensions\BaseControllerTestCase as BaseTestCaseClass;
 
-class MainControllerTest extends WebTestCase
+class MainControllerTest extends BaseTestCaseClass
 {
     public function testIndex()
     {
-        $client = static::createClient();
-
-        $crawler = $client->request('GET', '/');
-
-        $this->assertTrue(true);
-        //$this->assertTrue($crawler->filter('html:contains("Hello Fabien")')->count() > 0);
+        // Effettuo la chiamata
+        $crawler = $this->getCrawler($this->rootUri); 
     }     
 }
