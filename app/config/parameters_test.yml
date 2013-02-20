@@ -15,9 +15,3 @@ parameters:
     secret:            ThisTokenIsNotSoSecretChangeIt
 
     project.name:      sfBaseprjBundle
-    
-    tech_g_sf_baseprj.module.geodecode.enable: true
-    tech_g_sf_baseprj.module.guessLocale.enable: true
-    tech_g_sf_baseprj.module.mobileDetection.enable: true
-    tech_g_sf_baseprj.module.blackList.enable: false
-    tech_g_sf_baseprj.module.whitekList.enable: false

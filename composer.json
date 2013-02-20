@@ -22,6 +22,8 @@
         "jms/di-extra-bundle": "1.1.*",
         "kriswallsmith/assetic": "1.1.*@dev",
         
+        "jms/serializer": ">=0.11.0",
+        "egeloen/google-map-bundle": "1.0.0",
         "friendsofsymfony/user-bundle": "*",
         "avalanche123/imagine-bundle": "v2.1",
         "mobiledetect/mobiledetectlib": "dev-master", 

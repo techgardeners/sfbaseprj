@@ -119,4 +119,28 @@ fos_user:
 #            type:    thumbnail
 #            options: { size: [120, 90], mode: outbound, quality: 100, format: png }
 
-                                        
+tech_g_sf_baseprj:
+    debug:
+        enable: true
+    log:
+        enable: true
+        level: 1000
+        queue: true
+        savesession: true
+        saverequest: true
+        keepalive: true
+        skippattern: /^\/gPanel/
+    guesslocale:
+        enable: true
+        savesession: true        
+        onlyfirstrequest: true        
+    mobiledetect:
+        enable: true
+    geodecode:
+        enable: true
+        savesession: true        
+    whitelist:
+        enable: false
+    blacklist:
+        enable: false
+        

@@ -1,3 +1,7 @@
+tech_g_baseprj_bundle:
+    resource: "@TechGSfBaseprjBundle/Resources/config/routing.yml"
+    prefix:   /  
+    
 tech_g_auth_project:
     resource: "@TechGAuthProjectBundle/Resources/config/routing.yml"
     prefix:   /
@@ -5,7 +9,6 @@ tech_g_auth_project:
 tech_g_base_project:
     resource: "@TechGBaseProjectBundle/Resources/config/routing.yml"
     prefix:   /
-    
     
 ##### AVALANCHE ROUTE #####
     
