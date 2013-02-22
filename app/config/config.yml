@@ -120,6 +120,10 @@ fos_user:
 #            options: { size: [120, 90], mode: outbound, quality: 100, format: png }
 
 tech_g_sf_baseprj:
+    gpanel:
+        enable: true
+        secured: false
+        securedrole: 'ROLE_GPANEL_ACCESS'
     debug:
         enable: true
     log:
@@ -130,7 +134,7 @@ tech_g_sf_baseprj:
         saverequest: true
         keepalive: true
         skippattern: /^\/gPanel/
-    guesslocale:
+    locale:
         enable: true
         savesession: true        
         onlyfirstrequest: true        

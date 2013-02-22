@@ -1,5 +1,5 @@
 {
-    "hash": "309b89c0ed168d32f1a1c0dcc936103e",
+    "hash": "ebc0cd580a9964e7ddbff04f4cebf685",
     "packages": [
         {
             "name": "avalanche123/imagine-bundle",
@@ -1110,18 +1110,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/serbanghita/Mobile-Detect.git",
-                "reference": "2.5.5"
+                "reference": "b1940ca7de1e8462d596262233864b98009022ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/2.5.5",
-                "reference": "2.5.5",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/b1940ca7de1e8462d596262233864b98009022ca",
+                "reference": "b1940ca7de1e8462d596262233864b98009022ca",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.0.0"
             },
-            "time": "2013-02-07 21:01:21",
+            "time": "2013-02-21 11:29:39",
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -1136,7 +1136,7 @@
                 {
                     "name": "Serban Ghita",
                     "email": "serbanghita@gmail.com",
-                    "homepage": "http://mobiledetect.net",
+                    "homepage": "http://ghita.org",
                     "role": "Developer"
                 }
             ],
@@ -1817,18 +1817,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/techgardeners/sf-baseprj-bundle.git",
-                "reference": "21867b00a4f2a8bb395f59ba4292737a19eb4cae"
+                "reference": "b7163c848f39dadfc427cf002f03ea2f54696657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/techgardeners/sf-baseprj-bundle/zipball/21867b00a4f2a8bb395f59ba4292737a19eb4cae",
-                "reference": "21867b00a4f2a8bb395f59ba4292737a19eb4cae",
+                "url": "https://api.github.com/repos/techgardeners/sf-baseprj-bundle/zipball/b7163c848f39dadfc427cf002f03ea2f54696657",
+                "reference": "b7163c848f39dadfc427cf002f03ea2f54696657",
                 "shasum": ""
             },
             "require": {
                 "doctrine/doctrine-migrations-bundle": "dev-master",
                 "doctrine/migrations": "dev-master",
-                "egeloen/google-map-bundle": "*",
+                "egeloen/google-map-bundle": "1.0.0",
                 "jms/serializer": "*",
                 "kriswallsmith/buzz": "*",
                 "mobiledetect/mobiledetectlib": "dev-master",
@@ -1839,7 +1839,7 @@
             "require-dev": {
                 "symfony/framework-bundle": ">=2.7,<2.2-dev"
             },
-            "time": "2013-02-19 05:42:28",
+            "time": "2013-02-22 16:08:41",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
