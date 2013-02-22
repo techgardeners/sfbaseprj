@@ -1,5 +1,5 @@
 {
-    "hash": "ebc0cd580a9964e7ddbff04f4cebf685",
+    "hash": "eb8d8dd5ab5fda391bbba9911fa44de5",
     "packages": [
         {
             "name": "avalanche123/imagine-bundle",
@@ -425,48 +425,6 @@
             "keywords": [
                 "database",
                 "orm"
-            ]
-        },
-        {
-            "name": "egeloen/google-map-bundle",
-            "version": "v1.0",
-            "target-dir": "Ivory/GoogleMapBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/egeloen/IvoryGoogleMapBundle",
-                "reference": "v1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/egeloen/IvoryGoogleMapBundle/zipball/v1.0",
-                "reference": "v1.0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "symfony/framework-bundle": "2.*",
-                "willdurand/geocoder": ">=1.0.0"
-            },
-            "time": "2012-04-25 11:51:20",
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Ivory\\GoogleMapBundle": ""
-                }
-            },
-            "notification-url": "http://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Eric GELOEN",
-                    "email": "geloen.eric@gmail.com"
-                }
-            ],
-            "description": "Provides a google map integration for your Symfony2 Project.",
-            "keywords": [
-                "google map"
             ]
         },
         {
@@ -1817,18 +1775,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/techgardeners/sf-baseprj-bundle.git",
-                "reference": "b7163c848f39dadfc427cf002f03ea2f54696657"
+                "reference": "e42474b1bbabe60d33b77f9177aa789bd7f65d47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/techgardeners/sf-baseprj-bundle/zipball/b7163c848f39dadfc427cf002f03ea2f54696657",
-                "reference": "b7163c848f39dadfc427cf002f03ea2f54696657",
+                "url": "https://api.github.com/repos/techgardeners/sf-baseprj-bundle/zipball/e42474b1bbabe60d33b77f9177aa789bd7f65d47",
+                "reference": "e42474b1bbabe60d33b77f9177aa789bd7f65d47",
                 "shasum": ""
             },
             "require": {
                 "doctrine/doctrine-migrations-bundle": "dev-master",
                 "doctrine/migrations": "dev-master",
-                "egeloen/google-map-bundle": "1.0.0",
                 "jms/serializer": "*",
                 "kriswallsmith/buzz": "*",
                 "mobiledetect/mobiledetectlib": "dev-master",
@@ -1839,7 +1796,7 @@
             "require-dev": {
                 "symfony/framework-bundle": ">=2.7,<2.2-dev"
             },
-            "time": "2013-02-22 16:08:41",
+            "time": "2013-02-22 17:55:03",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {

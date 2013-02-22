@@ -25,7 +25,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(), // https://github.com/doctrine/DoctrineMigrationsBundle
             new Avalanche\Bundle\ImagineBundle\AvalancheImagineBundle(), // https://github.com/avalanche123/AvalancheImagineBundle           
             new SunCat\MobileDetectBundle\MobileDetectBundle(),  // http://knpbundles.com/egeloen/IvoryGoogleMapBundle
-            new Ivory\GoogleMapBundle\IvoryGoogleMapBundle(),   // https://github.com/egeloen/IvoryGoogleMapBundle         
+            //new Ivory\GoogleMapBundle\IvoryGoogleMapBundle(),   // https://github.com/egeloen/IvoryGoogleMapBundle         
             new TechG\Bundle\SfBaseprjBundle\TechGSfBaseprjBundle(),
             
             // Base bundle for project based on techgardeners/sfbaseprj
